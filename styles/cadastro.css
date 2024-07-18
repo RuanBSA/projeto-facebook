@@ -14,12 +14,10 @@
 body {
     background-color: #F0F2F5;
     background-size: 98vh;
-    margin: auto;
 }
 
 main {
-    margin: auto;
-    background-size: auto;
+    background-size: 98vh;
 }
 
 h1 {
@@ -34,7 +32,6 @@ h1 {
 #formulario {
     border-radius: 8px;
     box-shadow: 2px 2px 8px 3px rgba(0, 0, 0, 0.126);
-    margin: auto;
 }
 
 h2 {
@@ -164,6 +161,7 @@ hr {
 #formulario {
     background-color: #FFFFFF;
     width: 460px;
+    max-width: 460px;
     height: 70vh;
     margin: auto;
     text-align: center;
