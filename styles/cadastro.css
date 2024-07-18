@@ -1,0 +1,163 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --fonte-titulo: "Noto Sans";
+}
+
+body {
+    background-color: #F0F2F5;
+    background-size: 100vh;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    color: #0866FF;
+    font-size: 60px;
+    font-family: var(--fonte-titulo), "sans-serif";
+    cursor: default;
+}
+
+#formulario {
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px 3px rgba(0, 0, 0, 0.126);
+}
+
+h2 {
+    font-family: var(--fonte-titulo);
+    padding: 8px;
+}
+
+#subtitulo {
+    font-family: var(--fonte-titulo);
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+hr {
+    margin-bottom: 20px;
+}
+
+#nome {
+    width: 197px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+#apelido {
+    width: 197px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+#email {
+    width: 400px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 8px;
+}
+
+#password {
+    width: 400px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 8px;
+}
+
+#nascimento {
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 10px;
+    color: rgba(0, 0, 0, 0.575);
+}
+
+#data-nascimento {
+    transform: translate(-125%);
+    margin-top: 5px;
+}
+
+#genero {
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 10px;
+    color: rgba(0, 0, 0, 0.852);
+}
+
+#feminino {
+    position: relative;
+    top: 2px;
+}
+
+#masculino {
+    position: relative;
+    top: 2px;
+    right: 3px;
+}
+
+#outros {
+    position: relative;
+    top: 2px;
+    right: 3px;
+}
+
+.generos {
+   padding-right: 10px;
+}
+
+#termos {
+    font-family: var(--fonte-titulo);
+    font-size: 10px;
+    text-align: justify;
+    width: 400px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+#registrar {
+    display: block;
+    font-size: 16px;
+    font-weight: bolder;
+    transform: translate(100%);
+    margin-top: 40px;
+    height: 35px;
+    width: 150px;
+    background-color: #00A400;
+    color: #EAECEF;
+    border: #EAECEF;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#registrar:hover{
+    color: #eaecefd1;
+}
+
+#ja-tem-conta {
+    text-decoration: none;
+    font-family: var(--fonte-titulo);
+    font-size: 14px;
+    color: blue;
+}
+
+#ja-tem-conta:active{
+    color: #0866FF;
+}
+
+#texto {
+    padding-top: 10px
+}
+
+#formulario {
+    background-color: #FFFFFF;
+    width: 60vh;
+    height: 70vh;
+    margin: auto;
+    text-align: center;
+}

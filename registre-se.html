@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar-se no Facebook</title>
+    <link rel="shortcut icon" href="imagens/logo-facebook.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/cadastro.css">
+</head>
+<body>
+    <main>
+        <h1>facebook</h1>
+        <div id="formulario">
+            <h2>Criar uma nova conta</h2>
+            <p id="subtitulo">É rápido e fácil.</p> 
+            <hr>
+            <form action="" method="post" autocomplete="off" target="_blank">
+                <input type="text" placeholder="   Nome" name="nome" id="nome">
+                <input type="text" placeholder="   Sobrenome" name="apelido" id="apelido">
+                <input type="text" placeholder="   Numero de telefone ou e-mail" name="email" id="email">
+                <input type="password" placeholder="   Nova senha" name="password" id="password">
+
+                <p id="nascimento">Data de nascimento</p>
+                <input type="date" name="data-nascimento" id="data-nascimento">
+
+                <p id="genero">Genero:</p>
+                    <span class="generos"><label for="feminino">Feminino<input type="checkbox" name="feminino" id="feminino"></label></span>
+                    <span class="genero"><label for="masculino">Masculino <input type="checkbox" name="Masculino" id="masculino"></label></span>
+                    <span class="genero"><label for="outros">Outros <input type="checkbox" name="outros" id="outros"></label></span>
+
+                    <p id="termos">Ao clicar em Registrar-se, estás a aceitar os nossos Termos, a nossa Política de Privacidade e a nossa Política de Cookies. Poderás receber notificações nossas por SMS e podes cancelá-las a qualquer altura.</p>
+
+                <label for=""><input type="submit" value="Registrar-se" id="registrar"></label>
+
+                <p id="texto"><a href="login.html" id="ja-tem-conta" tar>Ja tenho uma conta</a></p>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
