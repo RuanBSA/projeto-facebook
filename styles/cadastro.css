@@ -13,7 +13,7 @@
 
 body {
     background-color: #F0F2F5;
-    background-size: 100vh;
+    background-size: 98vh;
     margin: auto;
 }
 
@@ -162,7 +162,7 @@ hr {
 
 #formulario {
     background-color: #FFFFFF;
-    width: 60vh;
+    width: 460px;
     height: 70vh;
     margin: auto;
     text-align: center;
