@@ -161,7 +161,7 @@ hr {
 #formulario {
     background-color: #FFFFFF;
     width: 460px;
-    max-width: 460px;
+    min-width: 400px;
     height: 70vh;
     margin: auto;
     text-align: center;
